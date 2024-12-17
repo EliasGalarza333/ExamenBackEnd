@@ -1,0 +1,203 @@
+{
+	"info": {
+		"_postman_id": "7a9e0889-10fe-464e-b51c-f91047f45854",
+		"name": "RutasExamen",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39689376"
+	},
+	"item": [
+		{
+			"name": "Rutas",
+			"item": [
+				{
+					"name": "Preferred_Address",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:5001/api/client/preferred_address",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"api",
+								"client",
+								"preferred_address"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Important_Info",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:5001/api/client/info",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"api",
+								"client",
+								"info"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Address_Asc",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:5001/api/client/addresses?orderBy=Address1&sortOrder=asc",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"api",
+								"client",
+								"addresses"
+							],
+							"query": [
+								{
+									"key": "orderBy",
+									"value": "Address1"
+								},
+								{
+									"key": "sortOrder",
+									"value": "asc"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Address_Desc",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:5001/api/client/addresses?orderBy=Address1&sortOrder=desc",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"api",
+								"client",
+								"addresses"
+							],
+							"query": [
+								{
+									"key": "orderBy",
+									"value": "Address1"
+								},
+								{
+									"key": "sortOrder",
+									"value": "desc"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreationDate_Desc",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:5001/api/client/addresses?orderBy=CreationDate&sortOrder=desc",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"api",
+								"client",
+								"addresses"
+							],
+							"query": [
+								{
+									"key": "orderBy",
+									"value": "CreationDate"
+								},
+								{
+									"key": "sortOrder",
+									"value": "desc"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Addresses_Postal_Code",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:5001/api/client/addresses/66220",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"api",
+								"client",
+								"addresses",
+								"66220"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreationDate_Asc",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:5001/api/client/addresses?orderBy=CreationDate&sortOrder=asc",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"api",
+								"client",
+								"addresses"
+							],
+							"query": [
+								{
+									"key": "orderBy",
+									"value": "CreationDate"
+								},
+								{
+									"key": "sortOrder",
+									"value": "asc"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
